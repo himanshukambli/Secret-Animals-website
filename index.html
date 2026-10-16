@@ -1,0 +1,256 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#10251b">
+
+  <title>Secret Animals | Wildlife Encounters</title>
+
+  <meta name="description"
+        content="Discover amazing wildlife encounters, animal stories and incredible moments from the natural world.">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #101a14;
+      color: #ffffff;
+    }
+
+    header {
+      background: #10251b;
+      border-bottom: 2px solid #d4ad55;
+      padding: 24px 16px;
+      text-align: center;
+    }
+
+    header h1 {
+      color: #e4c16c;
+      margin: 0;
+      font-size: clamp(27px, 5vw, 42px);
+      letter-spacing: 2px;
+    }
+
+    header p {
+      color: #d7ded8;
+      margin: 12px 0 0;
+      font-size: 15px;
+    }
+
+    nav {
+      background: #192a20;
+      padding: 14px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+      margin: 0 12px;
+      font-size: 14px;
+    }
+
+    nav a:hover {
+      color: #e4c16c;
+    }
+
+    .hero {
+      padding: 45px 18px;
+      text-align: center;
+      background: linear-gradient(135deg, #183b27, #101a14);
+    }
+
+    .hero h2 {
+      color: #e4c16c;
+      font-size: clamp(24px, 4vw, 34px);
+      margin: 0 0 14px;
+    }
+
+    .hero p {
+      max-width: 650px;
+      margin: auto;
+      color: #e0e6e1;
+      line-height: 1.7;
+    }
+
+    main {
+      max-width: 1050px;
+      margin: auto;
+      padding: 32px 16px 50px;
+    }
+
+    .section-title {
+      color: #e4c16c;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .section-description {
+      color: #c7d0c9;
+      text-align: center;
+      margin-bottom: 28px;
+      line-height: 1.6;
+    }
+
+    .video-card {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 16px;
+      background: #1a2a20;
+      border: 1px solid #344b39;
+      border-radius: 12px;
+      box-shadow: 0 8px 25px #00000035;
+    }
+
+    .video-frame {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 560 / 429;
+      overflow: hidden;
+      border-radius: 8px;
+      background: #000000;
+    }
+
+    .video-frame iframe {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    .video-card h3 {
+      color: #e4c16c;
+      margin: 18px 0 8px;
+    }
+
+    .video-card p {
+      color: #d0d9d2;
+      line-height: 1.6;
+      margin-bottom: 4px;
+    }
+
+    .facebook-link {
+      display: inline-block;
+      margin-top: 14px;
+      padding: 11px 18px;
+      background: #d4ad55;
+      color: #172219;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 6px;
+    }
+
+    .facebook-link:hover {
+      background: #f0d68f;
+    }
+
+    footer {
+      background: #0b130e;
+      color: #aebbb1;
+      text-align: center;
+      padding: 24px 16px;
+      border-top: 1px solid #344b39;
+      font-size: 13px;
+      line-height: 1.7;
+    }
+
+    @media (max-width: 480px) {
+      nav a {
+        display: inline-block;
+        margin: 6px 8px;
+      }
+
+      .video-card {
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>SECRET ANIMALS</h1>
+    <p>Wildlife Encounters • Amazing Animals • Untold Stories</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#videos">Watch Videos</a>
+    <a href="#about">About Us</a>
+    <a href="https://www.facebook.com/profile.php?id=100064067553946"
+       target="_blank" rel="noopener noreferrer">Facebook Page</a>
+  </nav>
+
+  <section class="hero" id="home">
+    <h2>Discover the Wild Side of Nature</h2>
+    <p>
+      Explore extraordinary animal encounters, fascinating wildlife,
+      survival stories and unforgettable moments from the natural world.
+      Welcome to Secret Animals!
+    </p>
+  </section>
+
+  <main>
+    <section id="videos">
+      <h2 class="section-title">Featured Wildlife Video</h2>
+      <p class="section-description">
+        Watch an incredible animal moment from our Facebook collection.
+      </p>
+
+      <article class="video-card">
+        <div class="video-frame">
+          <iframe
+            src="https://www.facebook.com/plugins/video.php?height=314&amp;href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1021370260977109%2F&amp;show_text=false&amp;width=560&amp;t=0"
+            title="Secret Animals Facebook Reel"
+            loading="lazy"
+            scrolling="no"
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+            allowfullscreen>
+          </iframe>
+        </div>
+
+        <h3>Wildlife Encounter</h3>
+        <p>
+          Watch this featured Reel from Secret Animals.
+          More wildlife videos can be added to this gallery.
+        </p>
+
+        <a class="facebook-link"
+           href="https://www.facebook.com/share/v/1Ez9f8BS1M/"
+           target="_blank"
+           rel="noopener noreferrer">
+          View on Facebook
+        </a>
+      </article>
+    </section>
+
+    <section id="about" style="margin-top: 50px; text-align: center;">
+      <h2 class="section-title">About Secret Animals</h2>
+      <p class="section-description">
+        Secret Animals brings you fascinating animal moments and
+        wildlife encounters. Explore our videos and follow our Facebook
+        Page for more content.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Secret Animals. All rights reserved.</p>
+    <p>Videos are embedded from Facebook and remain subject to Facebook's availability and settings.</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent =
+      new Date().getFullYear();
+  </script>
+
+</body>
+</html>
